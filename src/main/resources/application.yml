@@ -13,6 +13,7 @@ spring:
           '[/**]':
             allowedOrigins:
               - http://localhost:5173
+              - http://localhost:3000
               - https://develop.d3buj2sx3ltbzt.amplifyapp.com
             allowedHeaders: "*"
             allowedMethods:
