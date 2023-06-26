@@ -3,6 +3,10 @@ server:
 spring:
   application:
     name: gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: https://examapp-discovery-server.onrender.com/eureka
 
   cloud:
     gateway:
